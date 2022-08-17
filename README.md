@@ -16,11 +16,11 @@ Use the following link to access the webpage: https://marousiss.github.io/bootca
 
 Webpage screenshots:
 
-![Screenshot 1] (./assets/images/screenshot-01.png)
+![Screenshot 1](./assets/images/screenshot-01.png)
 
-![Screenshot 2] (./assets/images/screenshot-02.png)
+![Screenshot 2](./assets/images/screenshot-02.png)
 
-![Screenshot 3] (./assets/images/screenshot-03.png)
+![Screenshot 3](./assets/images/screenshot-03.png)
 
 ## Credits
 
