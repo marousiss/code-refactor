@@ -1,9 +1,11 @@
+/* Universal selector */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* Element selectors */
 body {
     background-color: #d9dcd6;
 }
@@ -50,6 +52,35 @@ p {
     font-size: 16px;
 }
 
+main {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+aside {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+
+footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+footer h2 {
+    font-size: 20px;
+}
+
+/* Class selectors */
 .hero {
     height: 800px;
     width: 100%;
@@ -57,12 +88,6 @@ p {
     background-image: url("../images/digital-marketing-meeting.jpg");
     background-size: cover;
     background-position: center;
-}
-
-main {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
 }
 
 .horiseon-services {
@@ -93,17 +118,6 @@ main {
     margin-left: 25px;
 }
 
-aside {
-    margin-right: 20px;
-    padding: 20px;
-    clear: both;
-    float: right;
-    width: 20%;
-    height: 100%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #2589bd;
-}
-
 .benefits {
     margin-bottom: 32px;
     color: #ffffff;
@@ -120,13 +134,3 @@ aside {
     max-width: 150px;
 }
 
-footer {
-    padding: 30px;
-    clear: both;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-align: center;
-}
-
-footer h2 {
-    font-size: 20px;
-}
